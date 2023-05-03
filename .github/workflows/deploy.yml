@@ -24,7 +24,7 @@ jobs:
   # Build job
   build:
     env:
-      PUBLIC_URL: "https://alex009.github.io/animaapp-test/"
+      PUBLIC_URL: "https://alex009.github.io/dhiwise-react-app/"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
