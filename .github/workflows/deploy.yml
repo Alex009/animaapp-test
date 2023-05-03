@@ -23,6 +23,8 @@ concurrency:
 jobs:
   # Build job
   build:
+    env:
+      PUBLIC_URL: "https://alex009.github.io/animaapp-test/"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
