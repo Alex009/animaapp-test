@@ -7,7 +7,7 @@ const Catalog = React.lazy(() => import("./pages/Catalog"));
 const ProjectRoutes = () => {
   return (
     <React.Suspense fallback={<>Loading...</>}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Catalog />} />
           <Route path="*" element={<NotFound />} />
